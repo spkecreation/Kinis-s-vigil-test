@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="KINI'S VIGIL. An independent dark fantasy game. Early testing builds coming soon.">
+  <title>KINI'S VIGIL — Early Testing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="KINI'S VIGIL home"><img src="assets/logo.png" alt="KINI'S VIGIL"></a>
+    <nav aria-label="Main navigation"><a href="#overview">OVERVIEW</a><a href="#screenshots">SCREENSHOTS</a><a href="#testing">TESTING</a><a href="#feedback">FEEDBACK</a></nav>
+    <span class="build-tag"><i></i> IN DEVELOPMENT</span>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#overview">OVERVIEW</a><a href="#screenshots">SCREENSHOTS</a><a href="#testing">TESTING</a><a href="#feedback">FEEDBACK</a></nav>
+  <main id="content">
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-image" role="img" aria-label="Kini holding a lantern in a dark ruined village"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="red-line"></span> INDEPENDENT DARK FANTASY / EARLY TEST</p>
+        <img class="hero-logo" src="assets/logo.png" alt="KINI'S VIGIL" id="hero-heading">
+        <p class="hero-line">THE VILLAGE IS EMPTY.<br>THE NIGHT ISN'T.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#downloads">VIEW EARLY BUILDS <span>↗</span></a><a class="button button-outline" href="#screenshots">VIEW SCREENSHOTS <span>↘</span></a></div>
+      </div>
+      <div class="hero-bottom"><span>PRE-RELEASE / PC & MAC</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+    <div class="ticker" aria-label="Game features"><div class="ticker-inner">EXPLORE THE RUINS <span>✦</span> FACE THE UNKNOWN <span>✦</span> SURVIVE THE NIGHT <span>✦</span> EXPLORE THE RUINS <span>✦</span> FACE THE UNKNOWN <span>✦</span> SURVIVE THE NIGHT <span>✦</span></div></div>
+    <section class="overview section" id="overview">
+      <div class="section-kicker"><span>01 / THE GAME</span><span>EARLY TESTING</span></div>
+      <div class="overview-grid"><div><h1 class="section-title">KINI'S <em>VIGIL</em></h1><p class="overview-copy">A deserted village. A spear. Something waiting beyond the outskirts.</p></div><div class="facts"><div><span>GENRE</span><strong>DARK FANTASY / ACTION</strong></div><div><span>STATUS</span><strong>IN DEVELOPMENT</strong></div><div><span>PLATFORMS</span><strong>WINDOWS / macOS</strong></div><div><span>ACCESS</span><strong>EARLY TEST BUILDS</strong></div></div></div>
+    </section>
+    <section class="gallery section" id="screenshots">
+      <div class="section-kicker"><span>02 / IN-GAME</span><span>SCREENSHOTS</span></div>
+      <div class="gallery-head"><h2 class="section-title">INSIDE THE <em>WORLD</em></h2><span>CAPTURED FROM DEVELOPMENT</span></div>
+      <div class="gallery-grid">
+        <button class="shot shot-main" type="button" data-image="assets/main-menu.png" data-caption="THE BEGINNING / MAIN MENU" aria-label="Expand main menu screenshot"><img src="assets/main-menu.png" alt="Main menu with Kini carrying a lantern" loading="lazy"><span class="shot-caption"><b>01</b> THE BEGINNING <span>↗</span></span></button>
+        <button class="shot" type="button" data-image="assets/gameplay.png" data-caption="THE VILLAGE / GAMEPLAY" aria-label="Expand gameplay screenshot"><img src="assets/gameplay.png" alt="Top-down gameplay screenshot with Kini in a village and GURA boss health bar" loading="lazy"><span class="shot-caption"><b>02</b> THE VILLAGE <span>↗</span></span></button>
+        <button class="shot" type="button" data-image="assets/pause-menu.png" data-caption="PAUSE / IN-GAME UI" aria-label="Expand pause menu screenshot"><img src="assets/pause-menu.png" alt="In-game pause menu showing Kini and lantern" loading="lazy"><span class="shot-caption"><b>03</b> IN-GAME UI <span>↗</span></span></button>
+      </div>
+    </section>
+    <section class="downloads section" id="downloads">
+      <div class="section-kicker"><span>03 / EARLY BUILDS</span><span>NO DOWNLOADS YET</span></div>
+      <div class="downloads-grid"><div><h2 class="section-title">PLAY IT <em>SOON.</em></h2><p class="muted">Builds are being prepared for early testing.</p></div><div class="download-list"><div class="download-row"><div class="os-icon">⊞</div><div><strong>WINDOWS</strong><span>64-BIT PC</span></div><button type="button" disabled title="Windows build is not ready">COMING SOON <span>↗</span></button></div><div class="download-row"><div class="os-icon mac-icon">⌘</div><div><strong>macOS</strong><span>MAC DESKTOP</span></div><button type="button" disabled title="macOS build is not ready">COMING SOON <span>↗</span></button></div><p class="build-note">EARLY TEST VERSION · EXPECT BUGS AND UNFINISHED CONTENT</p></div></div>
+    </section>
+    <section class="testing section" id="testing">
+      <div class="section-kicker"><span>04 / TESTER NOTES</span><span>WHAT TO CHECK</span></div>
+      <h2 class="section-title">TEST THE <em>SYSTEMS.</em></h2>
+      <div class="test-grid"><div><span>01</span><strong>MOVEMENT & CAMERA</strong><small>Movement, mouse look, transitions</small></div><div><span>02</span><strong>SPEAR COMBAT</strong><small>Light and heavy attacks, targeting</small></div><div><span>03</span><strong>MAGIC</strong><small>Spell casting, resource use</small></div><div><span>04</span><strong>ENEMIES</strong><small>Encounters, damage, reactions</small></div><div><span>05</span><strong>STORY & DIALOGUE</strong><small>Old man interaction, objectives</small></div><div><span>06</span><strong>CHECKPOINTS</strong><small>Saving, death, respawn</small></div><div><span>07</span><strong>GURA BOSS</strong><small>Arena, combat, camera</small></div><div><span>08</span><strong>INTERFACE</strong><small>Health, magic, HUD, menus</small></div></div>
+    </section>
+    <section class="feedback section" id="feedback"><div class="section-kicker"><span>05 / COMMUNITY</span><span>PLAYER FEEDBACK</span></div><div class="feedback-head"><h2 class="section-title">YOUR <em>REPORTS.</em></h2><p class="muted">Bugs, suggestions, anything that feels off.</p></div><div class="comments" id="comments"><p>Community comments will open when the discussion space is connected.</p><a href="https://giscus.app" target="_blank" rel="noopener noreferrer">ABOUT THE COMMENT SYSTEM ↗</a></div></section>
+    <section class="creator section" id="creator"><div class="section-kicker"><span>06 / ABOUT</span><span>THE CREATOR</span></div><div class="creator-grid"><div class="creator-mark"><img src="assets/logo.png" alt="KINI'S VIGIL logo" loading="lazy"></div><div><p class="eyebrow">KNOW THE CREATOR</p><h2 class="section-title">MADE <em>INDEPENDENTLY.</em></h2><p class="creator-copy">An independent digital artist building KINI'S VIGIL.</p><span class="muted tiny">ART / DESIGN / DEVELOPMENT</span></div></div></section>
+  </main>
+  <footer><img src="assets/logo.png" alt="KINI'S VIGIL"><span>© <span id="year"></span> KINI'S VIGIL. IN DEVELOPMENT.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <dialog class="lightbox" id="lightbox" aria-label="Expanded game screenshot"><button class="lightbox-close" type="button" aria-label="Close screenshot">✕</button><img alt="Expanded screenshot"><p></p></dialog>
+</body>
+</html>
